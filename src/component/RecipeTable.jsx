@@ -63,7 +63,7 @@ const RecipeTable = ({ recipesList }) => {
           <p>Cooking Time = {cookTime ? cookTime : "(Not specified)"} mins</p>
           <label>Vegan</label>
           <input type="text" value={vegan} onChange={changeVeganHandler} />
-          <button type="submit"> Submit</button>
+          <button type="submit"> Search </button>
         </label>
       </form>
       <table>
